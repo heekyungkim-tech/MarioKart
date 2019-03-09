@@ -14,6 +14,7 @@
 		73D93C57223323E800666153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D93C55223323E800666153 /* LaunchScreen.storyboard */; };
 		73D93C62223323E900666153 /* MarioKartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D93C61223323E900666153 /* MarioKartTests.swift */; };
 		73D93C6D223323E900666153 /* MarioKartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D93C6C223323E900666153 /* MarioKartUITests.swift */; };
+		73D93C7B2233268700666153 /* MarioKartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D93C7A2233268700666153 /* MarioKartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		73D93C68223323E900666153 /* MarioKartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioKartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D93C6C223323E900666153 /* MarioKartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKartUITests.swift; sourceTree = "<group>"; };
 		73D93C6E223323E900666153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73D93C7A2233268700666153 /* MarioKartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				73D93C53223323E800666153 /* Assets.xcassets */,
 				73D93C55223323E800666153 /* LaunchScreen.storyboard */,
 				73D93C58223323E800666153 /* Info.plist */,
+				73D93C7A2233268700666153 /* MarioKartViewController.swift */,
 			);
 			path = MarioKart;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D93C4F223323E300666153 /* ViewController.swift in Sources */,
+				73D93C7B2233268700666153 /* MarioKartViewController.swift in Sources */,
 				73D93C4D223323E300666153 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
